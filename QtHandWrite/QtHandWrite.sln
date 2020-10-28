@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtHandWrite", "QtHandWrite\QtHandWrite.vcxproj", "{D826A408-33E7-4F22-8100-E50A0C9FD343}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CE6BD06-EEC4-4896-A306-64D72D8CE2A2} = {5CE6BD06-EEC4-4896-A306-64D72D8CE2A2}
+		{1441E42B-841E-4D13-A2F2-BED25F2F6E44} = {1441E42B-841E-4D13-A2F2-BED25F2F6E44}
+		{75393F3C-ADCF-4243-80F0-3C71BB8A2C9A} = {75393F3C-ADCF-4243-80F0-3C71BB8A2C9A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "googlepinyin", "QtHandWriteLib\googlepinyin\googlepinyin.vcxproj", "{75393F3C-ADCF-4243-80F0-3C71BB8A2C9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QtHandWriteLib", "QtHandWriteLib", "{14DBF8F0-F43D-4620-8BC1-F9D8D9A69396}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cqdlcInputContextPlugin", "QtHandWriteLib\cqdlcInputContextPlugin\cqdlcInputContextPlugin.vcxproj", "{5CE6BD06-EEC4-4896-A306-64D72D8CE2A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "handinput", "QtHandWriteLib\handinput\handinput.vcxproj", "{1441E42B-841E-4D13-A2F2-BED25F2F6E44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D826A408-33E7-4F22-8100-E50A0C9FD343}.Debug|x64.ActiveCfg = Debug|x64
+		{D826A408-33E7-4F22-8100-E50A0C9FD343}.Debug|x64.Build.0 = Debug|x64
+		{D826A408-33E7-4F22-8100-E50A0C9FD343}.Debug|x86.ActiveCfg = Debug|x64
+		{D826A408-33E7-4F22-8100-E50A0C9FD343}.Release|x64.ActiveCfg = Release|x64
+		{D826A408-33E7-4F22-8100-E50A0C9FD343}.Release|x64.Build.0 = Release|x64
+		{D826A408-33E7-4F22-8100-E50A0C9FD343}.Release|x86.ActiveCfg = Release|x64
+		{75393F3C-ADCF-4243-80F0-3C71BB8A2C9A}.Debug|x64.ActiveCfg = Debug|x64
+		{75393F3C-ADCF-4243-80F0-3C71BB8A2C9A}.Debug|x64.Build.0 = Debug|x64
+		{75393F3C-ADCF-4243-80F0-3C71BB8A2C9A}.Debug|x86.ActiveCfg = Debug|x64
+		{75393F3C-ADCF-4243-80F0-3C71BB8A2C9A}.Release|x64.ActiveCfg = Release|x64
+		{75393F3C-ADCF-4243-80F0-3C71BB8A2C9A}.Release|x64.Build.0 = Release|x64
+		{75393F3C-ADCF-4243-80F0-3C71BB8A2C9A}.Release|x86.ActiveCfg = Release|x64
+		{5CE6BD06-EEC4-4896-A306-64D72D8CE2A2}.Debug|x64.ActiveCfg = Debug|x64
+		{5CE6BD06-EEC4-4896-A306-64D72D8CE2A2}.Debug|x64.Build.0 = Debug|x64
+		{5CE6BD06-EEC4-4896-A306-64D72D8CE2A2}.Debug|x86.ActiveCfg = Debug|x64
+		{5CE6BD06-EEC4-4896-A306-64D72D8CE2A2}.Release|x64.ActiveCfg = Release|x64
+		{5CE6BD06-EEC4-4896-A306-64D72D8CE2A2}.Release|x64.Build.0 = Release|x64
+		{5CE6BD06-EEC4-4896-A306-64D72D8CE2A2}.Release|x86.ActiveCfg = Release|x64
+		{1441E42B-841E-4D13-A2F2-BED25F2F6E44}.Debug|x64.ActiveCfg = Debug|x64
+		{1441E42B-841E-4D13-A2F2-BED25F2F6E44}.Debug|x64.Build.0 = Debug|x64
+		{1441E42B-841E-4D13-A2F2-BED25F2F6E44}.Debug|x86.ActiveCfg = Debug|Win32
+		{1441E42B-841E-4D13-A2F2-BED25F2F6E44}.Debug|x86.Build.0 = Debug|Win32
+		{1441E42B-841E-4D13-A2F2-BED25F2F6E44}.Release|x64.ActiveCfg = Release|x64
+		{1441E42B-841E-4D13-A2F2-BED25F2F6E44}.Release|x64.Build.0 = Release|x64
+		{1441E42B-841E-4D13-A2F2-BED25F2F6E44}.Release|x86.ActiveCfg = Release|Win32
+		{1441E42B-841E-4D13-A2F2-BED25F2F6E44}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75393F3C-ADCF-4243-80F0-3C71BB8A2C9A} = {14DBF8F0-F43D-4620-8BC1-F9D8D9A69396}
+		{5CE6BD06-EEC4-4896-A306-64D72D8CE2A2} = {14DBF8F0-F43D-4620-8BC1-F9D8D9A69396}
+		{1441E42B-841E-4D13-A2F2-BED25F2F6E44} = {14DBF8F0-F43D-4620-8BC1-F9D8D9A69396}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EB422DF-0AB3-4072-9451-D843167E6AC4}
+	EndGlobalSection
+EndGlobal
